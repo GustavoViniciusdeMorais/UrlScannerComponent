@@ -1,0 +1,26 @@
+{
+    "name": "gustavomorais/scannerurls",
+    "description": "Scan URLs from CSV file and report inaccessible URLs",
+    "keywords": ["url", "scanner", "csv"],
+    "homepage": "https://github.com/gustavoviniciusdemorais",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gustavo Vinicius de Morais Pereira",
+            "homepage": "https://github.com/gustavoviniciusdemorais",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "gustavoviniciusmoraisti@gmail.com"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "league/csv": "^9.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gustavo\\Morais\\": "src/"
+        }
+    }
+}
